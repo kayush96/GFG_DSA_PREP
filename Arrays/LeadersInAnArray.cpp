@@ -8,7 +8,7 @@ vector<int> leaders(int arr[], int n) {
     for(int i = n - 2; i >= 0; i--) {
         if(arr[i] >= right_max) {
             right_max = arr[i];
-            result.push_back(right_max);
+            result.push_back(right_max); 
         }
     }
     reverse(result.begin(), result.end());
